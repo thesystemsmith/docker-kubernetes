@@ -9,3 +9,5 @@ docker create image
 docker start image
 docker start -a image
 docker start -a container_id
+
+docker system prune  
