@@ -1,0 +1,10 @@
+docker run image
+docker run image ls 
+docker run image echo 'something'
+
+docker ps
+docker ps --all
+
+docker create image
+docker start image
+docker start -a image
