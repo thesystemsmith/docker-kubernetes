@@ -13,3 +13,5 @@ docker start -a container_id
 docker system prune  
 
 docker logs container_id
+docker stop container_id
+docker kill container_id
