@@ -27,3 +27,6 @@ docker exec --it container_id redis-cli
 //shell
 docker exec -it container_id sh
 docker run -it image sh
+
+//creating custom image
+docker build .
