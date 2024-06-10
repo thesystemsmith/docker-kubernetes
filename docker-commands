@@ -13,9 +13,8 @@ docker start image
 docker start -a image
 docker start -a container_id
 
-docker system prune  
-
 //stop or get logs 
+docker system prune  
 docker logs container_id
 docker stop container_id
 docker kill container_id
