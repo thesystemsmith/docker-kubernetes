@@ -15,3 +15,6 @@ docker system prune
 docker logs container_id
 docker stop container_id
 docker kill container_id
+
+docker exec --it container_id command
+docker exec --it container_id redis-cli
