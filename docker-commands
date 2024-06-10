@@ -29,3 +29,7 @@ docker run -it image sh
 
 //creating custom image
 docker build .
+
+//tagging image
+docker build -t thesystemsmith/redis:latest . 
+docker run docker.io/thesystemsmith/redis   
