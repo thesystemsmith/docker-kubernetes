@@ -1,10 +1,13 @@
+// run image
 docker run image
 docker run image ls 
 docker run image echo 'something'
 
+// get all containers
 docker ps
 docker ps --all
 
+//create and start
 docker create image
 docker start image
 docker start -a image
@@ -12,9 +15,15 @@ docker start -a container_id
 
 docker system prune  
 
+//stop or get logs 
 docker logs container_id
 docker stop container_id
 docker kill container_id
 
+//execute a command within a running Docker container
 docker exec --it container_id command
 docker exec --it container_id redis-cli
+
+//shell
+docker exec -it container_id sh
+docker run -it image sh
