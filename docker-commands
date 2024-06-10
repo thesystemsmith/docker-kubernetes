@@ -33,3 +33,6 @@ docker build .
 //tagging image
 docker build -t thesystemsmith/redis:latest . 
 docker run docker.io/thesystemsmith/redis   
+
+//buildkit disable 
+DOCKER_BUILDKIT=0 docker build .
