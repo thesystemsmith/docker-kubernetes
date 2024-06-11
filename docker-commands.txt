@@ -36,3 +36,6 @@ docker run docker.io/thesystemsmith/redis
 
 //buildkit disable 
 DOCKER_BUILDKIT=0 docker build .
+
+//port mapping
+docker run -p 8080<incoming> : 8080<container_port> image
