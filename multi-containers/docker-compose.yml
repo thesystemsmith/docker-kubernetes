@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  redis-server:
+    image: redis:latest
+
+  node-app:
+    ports:
+      -"8081":"8081"
+
+volumes:
+  db_data:
+
+networks:
+  webnet:
