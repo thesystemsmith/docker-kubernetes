@@ -39,3 +39,11 @@ DOCKER_BUILDKIT=0 docker build .
 
 //port mapping
 docker run -p 8080<incoming> : 8080<container_port> image
+
+//docker-compose
+docker-compose up 
+docker-compose up --build //if anything is changes in the container
+
+//start and stop
+docker-compose up -d    
+docker-compose down
