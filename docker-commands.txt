@@ -55,3 +55,7 @@ docker build -f Dockerfile.dev -t thesystemsmith/workflow:latest .
 
 //file mapping - to not rebuild everytime the changes inside the app is made
  docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app thesystemsmith/workflow   
+
+// running tests
+docker run -it thesystemsmith/workflow npm run test   
+docker exec -it container_id npm run test
