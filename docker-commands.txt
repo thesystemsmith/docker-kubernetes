@@ -47,3 +47,5 @@ docker-compose up --build //if anything is changes in the container
 //start and stop
 docker-compose up -d    
 docker-compose down
+
+docker-compose ps
